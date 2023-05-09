@@ -2,6 +2,7 @@ package com.example.integration.controllers;
 
 import com.example.integration.models.Admin;
 import com.example.integration.models.Article;
+import com.example.integration.models.Categorie;
 import com.example.integration.service.AdminService;
 import com.example.integration.service.ArticleService;
 import jakarta.servlet.http.HttpServletRequest;
