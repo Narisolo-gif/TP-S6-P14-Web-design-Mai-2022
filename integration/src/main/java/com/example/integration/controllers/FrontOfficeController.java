@@ -1,7 +1,9 @@
 package com.example.integration.controllers;
 
 import com.example.integration.models.Article;
+import com.example.integration.models.Content;
 import com.example.integration.service.ArticleService;
+import com.example.integration.service.ContentService;
 import org.checkerframework.checker.units.qual.C;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
