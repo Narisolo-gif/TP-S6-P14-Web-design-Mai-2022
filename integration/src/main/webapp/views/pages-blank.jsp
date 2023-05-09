@@ -8,7 +8,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title><%=article.get(1).getTitre()%></title>
+  <title><%=article.get(0).getTitre()%></title>
   <meta content="Intelligence_artificielle" name="description">
   <meta content="Intelligence_artificielle" name="keywords">
 
@@ -71,9 +71,9 @@
   <main id="main" class="main">
 
     <div class="pagetitle">
-      <h1><%=article.get(1).getTitre()%></h1>
+      <h1><%=article.get(0).getTitre()%></h1>
       <nav>
-        <%=article.get(1).getResume()%>
+        <%=article.get(0).getResume()%>
       </nav>
     </div><!-- End Page Title -->
     <section class="section">
@@ -83,8 +83,8 @@
           <div class="card">
             <div class="card-body">
               <% if(article!=null) %>
-              <%=article.get(1).getContenu()%>
-              <img src="<%="data:image/png;base64,"+article.get(1).getVisual()%>">
+              <%=article.get(0).getContenu()%>
+              <img src="<%="data:image/png;base64,"+article.get(0).getVisual()%>">
             </div>
           </div>
 

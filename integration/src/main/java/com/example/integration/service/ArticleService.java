@@ -1,7 +1,6 @@
 package com.example.integration.service;
 
 import com.example.integration.models.Article;
-import com.example.integration.models.Content;
 import jakarta.persistence.Query;
 import lars.repo.Repo;
 import org.hibernate.Session;

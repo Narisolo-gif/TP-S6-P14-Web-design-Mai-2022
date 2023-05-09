@@ -4,9 +4,9 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean id="datasource" class="org.apache.commons.dbcp.BasicDataSource">
         <property name="driverClassName" value="org.postgresql.Driver"/>
-        <property name="url" value="jdbc:postgresql://localhost:5432/article_seo"/>
+        <property name="url" value="jdbc:postgresql://containers-us-west-64.railway.app:5971/railway"/>
         <property name="username" value="postgres"/>
-        <property name="password" value="narisolo"/>
+        <property name="password" value="wTM9e9mG3Jqz5HXhAxHZ"/>
     </bean>
     <bean id="factory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
         <property name="dataSource" ref="datasource"/>

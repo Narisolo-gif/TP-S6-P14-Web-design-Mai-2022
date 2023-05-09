@@ -1,8 +1,6 @@
 package com.example.integration.service;
 
 import com.example.integration.models.Admin;
-import com.example.integration.models.Auteur;
-import com.example.integration.models.Profile;
 import lars.repo.Repo;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
